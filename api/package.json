@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only index.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "class-validator": "^0.14.1",
+    "graphql": "^15.8.0",
+    "reflect-metadata": "^0.2.1",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  }
+}
